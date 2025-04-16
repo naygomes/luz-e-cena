@@ -1,0 +1,23 @@
+.banner {
+  width: 100%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: calc(4 * var(--padding-xxxl));
+  box-sizing: border-box;
+}
+
+.slogan {
+  color: var(--light-gray);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  font-family: var(--font-title);
+  width: 30vw;
+}
+
+.slogan span {
+  color: var(--blue);
+}
