@@ -1,5 +1,11 @@
+import Banner from "./components/Banner";
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div style={{ height: "100vh" }}>
+      <Banner src="./images/banners/banner-desktop.png" />
+    </div>
+  );
 }
 
 export default App;
